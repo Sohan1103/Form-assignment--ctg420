@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+font-family: 'Poppins', sans-serif;
+background: url('../img/background photo.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+.container{
+width: 650px;
+margin: 8% auto;
+}
+.login-section {
+background: #00388b8c;
+padding: 216px;
+margin: -33px;
+}
+.login-section img{
+width: 200px;
+height: 200px;
+margin: 0 auto;
+display: block;
+}
+.login-section h2{
+font-size: 33px;
+color: #fff;
+text-align: center;
+text-transform: capitalize;
+}
+.form-control{
+width: 295px;
+height: 35px;
+margin-bottom: 5px;
+}
+.login-btn{
+margin: 0 auto;
+display: block;
+background: #8b4000;
+color: #fff;
+padding: 10px 20px;
+text-transform: uppercase;
+border: none;
+transition: 0.4s ease-in-out
+}
+.login-btn:hover{
+cursor: pointer;
+box-shadow: 3px 3px 11px #fff;
+}
+a{
+color: #fff;
+margin: 74px;
+}
+p{
+color: #fff;
+font-weight: 300;
+}
+b {
+color: #fff;
+font-weight: 300;
+}
+small {
+font-weight: 300;
+}
+.sign-btn {
+margin: 87px;
+padding: 9px;
+background: #8b0d009c;
+}
+.sign-btn:hover {
+cursor: pointer;
+box-shadow: 3px 3px 8px #fff;
+}
